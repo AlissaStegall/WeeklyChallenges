@@ -200,7 +200,7 @@ namespace ChallengesWithTestsMark8.Tests
             };
 
             // Act
-            int[] actual = challenger.GetOddsBelow100();
+            int[] actual = ChallengesSet03.GetOddsBelow100();
 
             // Assert
             Assert.Equal(odds, actual);
